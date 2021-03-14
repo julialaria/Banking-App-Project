@@ -4,7 +4,7 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
 
 - If you are not registered, you will need to **register first**. To do this, you must enter a username, email and password. ***Remember that if you are an administrator, your email must contain @admin.***
 
-# USER
+# ***USER
 
 - To access your bank, once registered you must **log in** with your username and password. Once inside, you will be able to access your user space. There you can see in **TOTAL BALANCE** the total balance of all your accounts. In addition, you will be able to **access your different types of accounts: Savings, Checkings or CreditCards**.
 
@@ -12,7 +12,7 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
 
 -You can access your profile on the page **profile**
 
-# ADMINISTRATOR
+# ***ADMINISTRATOR
 
 - Once you are registered as an administrator, you will be able to access your space. To do this, you will need to **log in with** your username and password.
 
@@ -26,7 +26,7 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
 
 -You can access your profile on the page **profile**.
 
-# ACCOUNT SPECIFICATIONS
+# ***ACCOUNT SPECIFICATIONS
 
 -**Savings**: 
  
@@ -53,6 +53,20 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
     - **Credit Limit**: it must be greater than 100000 and less than 100. Otherwise, the default value will be 100
     
     - **Interest Rate**: it must be greater than 0.2 and less than 0.1. Otherwise, the default value will be 0.2
+
+# HOW TO RUN THIS PROJECT:
+
+  1) Download this project
+
+  2) Run the **eureka-server** project first with the command **mvn spring-boot: run**
+
+  3) **Create your database** from **Micro and Edge project**. To do this, you must enter your username and password in the properties of both projects. With the command mvn spring-boot: run, run the micro project. The last project to run must be Edge project. Now the two services are in Eureka.
+
+  4) Run the **angular project with the ng serve command**.
+
+  5) Once the 4 projects are running, you will be able to access your online bank, probably at your localhost: 4200
+
+ ***A robust security system through tokens has been used for this project. Thanks to this, not only can we register and log in to the database but we can also keep our session started and access our data (accounts, profile ...)
  
 
     
