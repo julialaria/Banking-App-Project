@@ -1,27 +1,31 @@
-# Final1
+# BANKING APP FINAL PROJECT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+Welcome to your online bank. Next, we will explain all the functionalities that you have at your fingertips.
 
-## Development server
+- If you are not registered, you will need to **register first**. To do this, you must enter a username, email and password. ***Remember that if you are an administrator, your email must contain @admin.***
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# USER
 
-## Code scaffolding
+- To access your bank, once registered you must **log in** with your username and password. Once inside, you will be able to access your user space. There you can see in **TOTAL BALANCE** the total balance of all your accounts. In addition, you will be able to **access your different types of accounts: Savings, Checkings or CreditCards**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- As a user, you can also **carry out transactions**. ***Remember that the account must be in your name***
 
-## Build
+-You can access your profile on the page **profile**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# ADMINISTRATOR
 
-## Running unit tests
+- Once you are registered as an administrator, you will be able to access your space. To do this, you will need to **log in with** your username and password.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- You can create accounts for registered bank users. In this way, you will be able to **create accounts of the type Saving, Checking and Credit Card**. Each account has some particularities that it must comply with. Our application will remind you what they are.
 
-## Running end-to-end tests
+- You can access a **list of all bank accounts and delete** the account you deem necessary.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- You will be able to **access to all the transactions** that have been carried out.
 
-## Further help
+- You can **update the balance of an account** by providing its id.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-You can access your profile on the page **profile**.
+
+# ACCOUNT SPECIFICATIONS
+
+- Savings:
