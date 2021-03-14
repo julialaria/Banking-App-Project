@@ -1,0 +1,33 @@
+
+
+<body class="box" style="width: 1600px; height: 6000px; margin-top: 0px;" onmouseover="color='black'">
+    <h2 style="text-align: center; margin-top: 50px;font-size: 40px">Accounts: </h2>
+    <br>
+    <br>
+    <br>
+        <table @enterState>
+            <thead>
+            <tr>
+                <th>Id Account</th>
+                <th>Balance</th>
+                <th>Currency</th>
+                <th>Owner Id</th>  
+            </tr>
+            </thead>
+            <thead>
+                <tr  *ngFor="let account of accounts let i = index">
+                    <th>{{account.id}}</th> 
+                    <th>{{account.balance}}</th>
+                    <th>{{account.currency}}</th>
+                    <th>{{account.userId}}</th> 
+                    <app-accountcard [account]="account" [accountId]="account.id"  (deleteAccountEvent)="delete($event)"></app-accountcard>  
+                </tr>
+            </thead> 
+            
+            
+<br>
+<br>
+<br>
+<br>
+</table>
+

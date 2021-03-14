@@ -1,0 +1,40 @@
+<body>
+
+    <div class="login">
+
+      <h1  style="font-size: 40px; color:burlywood; font-family: Futura ;font-weight: 400">Credit Card Account</h1>
+
+      <form  *ngIf="!isSuccessful" (ngSubmit)="createNewCreditCard()" #form="ngForm">
+
+        <div class="form-group"> 
+          <div  data-toggle="tooltip" data-placement="left" title="There must be an existing user id">            
+          <input placeholder="UserId" type="text" class="form-control" required  [(ngModel)]="inputUserId" name="inputUserId"/>
+          </div>
+        </div>
+
+        <div class="form-group">          
+            <input placeholder="Balance Amount" type="text" class="form-control" required [(ngModel)]="inputBalanceAmount" name="inputBalanceAmount"/>
+          </div>
+
+          <div class="form-group">          
+            <input placeholder="Balance Currency" type="text" class="form-control" required [(ngModel)]="inputBalanceCurrency" name="inputBalanceCurrency"/>
+          </div>
+
+          <div class="form-group">
+            <div  data-toggle="tooltip" data-placement="left" title="The default value is 100. Otherwise, it must be greater than 100 and less than 100000">                   
+            <input placeholder="Credit Limit" type="text" class="form-control" [(ngModel)]="inputCreditLimit" name="inputCreditLimit"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div  data-toggle="tooltip" data-placement="left" title="The default value is 0.2. Otherwise, it must be greater than 0.1 and less than 0.2">              
+            <input placeholder="Interest rate" type="text" class="form-control" [(ngModel)]="inputInterestRate" name="inputInterestRate"/>
+            </div>
+          </div>
+
+        <div class="form-group">
+          <button  type="submit" [disabled]="form.invalid" class="btn btn-primary btn-block btn-large">Create Saving</button> 
+        </div>
+
+      </form>
+  

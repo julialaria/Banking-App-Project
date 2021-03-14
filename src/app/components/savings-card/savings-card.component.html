@@ -1,0 +1,37 @@
+
+
+<body class="box" style="width: 1600px; height: 6000px; margin-top: 0px;" onmouseover="color='black'">
+    <h2 style="text-align: center; margin-top: 50px;  font-size: 40px">Savings Accounts: </h2>
+    <br>
+    <br>
+    <br>
+        <table  style="margin-left: 150px; width: 80%; font-family: 'Open Sans', sans-serif;" @enterState>
+            <thead>
+            <tr>
+                <th>Id Account</th>
+                <th>Balance</th>
+                <th>Currency</th>
+                <th>Secret Key</th>
+                <th>Status</th>
+                <th>Minimum Balance</th>
+                <th>Interest Rate</th>  
+            </tr>
+            </thead>
+            <thead>
+                <tr *ngFor="let saving of savings let i = index">
+                    <th style="font-size: 25px;">{{saving.id}}</th>
+                    <th style="font-size: 25px;">{{saving.balance}}</th>
+                    <th style="font-size: 25px;">{{saving.currency}}</th>
+                    <th style="font-size: 25px;">{{saving.secretKey}}</th> 
+                    <th style="font-size: 25px;">{{saving.status}}</th> 
+                    <th style="font-size: 25px;">{{saving.minimumBalance}}</th> 
+                    <th style="font-size: 25px;">{{saving.interestRate}}</th>     
+            </tr>
+            </thead> 
+            
+            
+<br>
+<br>
+<br>
+<br>
+</table>

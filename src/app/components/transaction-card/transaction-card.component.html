@@ -1,0 +1,33 @@
+
+<body class="box" style="width: 1600px; height: 6000px; margin-top: 0px;" onmouseover="color='black'">
+    <h2 style="text-align: center; margin-top: 50px; font-size: 40px">Transactions </h2>
+    <br>
+    <br>
+    <br>
+        <table  style="margin-left: 300px; width: 60%;font-family: 'Open Sans', sans-serif;" @enterState>
+            <thead>
+            <tr>
+                <th>Origen Account</th>
+                <th>Destination Account</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Owner Destination</th>  
+              
+            </tr>
+            </thead>
+            <thead>
+                <tr *ngFor="let transaction of transactions let i = index">
+                    <th style="font-size: 25px;">{{transaction.origenAccountId}}</th>
+                    <th style="font-size: 25px;">{{transaction.destinationAccountId}}</th>
+                    <th style="font-size: 25px;">{{transaction.description}}</th>
+                    <th style="font-size: 25px;">{{transaction.amount}}</th>
+                    <th style="font-size: 25px;">{{transaction.nameOwnerDestinationAccount}}</th>         
+            </tr>
+            </thead> 
+            
+            
+<br>
+<br>
+<br>
+<br>
+</table>

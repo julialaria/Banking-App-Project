@@ -1,0 +1,35 @@
+
+
+<body class="box" style="width: 1600px; height: 6000px; margin-top: 0px;" onmouseover="color='black'">
+    <h2 style="text-align: center; margin-top: 50px; font-size: 40px">CreditCard Accounts: </h2>
+    <br>
+    <br>
+    <br>
+
+  
+        <table  style="margin-left: 300px; width: 60%;font-family: 'Open Sans', sans-serif;" @enterState>
+            <thead>
+            <tr>
+                <th>Id Account</th>
+                <th>Balance</th>
+                <th>Currency</th>
+                <th>Credit Limit</th>  
+                <th>Interest Rate</th>  
+            </tr>
+            </thead>
+            <thead>
+                <tr *ngFor="let creditCard of creditcards let i = index">
+                    <th style="font-size: 25px;">{{creditCard.id}}</th>
+                    <th style="font-size: 25px;">{{creditCard.balance}}</th>
+                    <th style="font-size: 25px;">{{creditCard.currency}}</th>
+                    <th style="font-size: 25px;">{{creditCard.creditLimit}}</th> 
+                    <th style="font-size: 25px;">{{creditCard.interestRate}}</th>     
+            </tr>
+            </thead> 
+            
+            
+<br>
+<br>
+<br>
+<br>
+</table>

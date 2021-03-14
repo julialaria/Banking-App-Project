@@ -1,0 +1,24 @@
+<body>
+
+    <div class="login">
+
+      <h1  style="font-size: 40px; color:burlywood; font-family: Futura ;font-weight: 400">Update Balance</h1>
+
+      <form  *ngIf="!isSuccessful" (ngSubmit)="updateAccount()" #form="ngForm">
+
+        <div class="form-group">
+          <div  data-toggle="tooltip" data-placement="left" title="There must be an existing account id">             
+          <input placeholder="Account Id" type="text" class="form-control" required  [(ngModel)]="inputId" name="inputUserId"/>
+          </div>
+        </div>
+
+        <div class="form-group">          
+            <input placeholder="Balance Amount" type="text" class="form-control" required [(ngModel)]="inputBalance" name="inputBalanceAmount"/>
+          </div>
+
+        <div class="form-group">
+          <button  type="submit" [disabled]="form.invalid" class="btn btn-primary btn-block btn-large">Update Balance</button>
+      
+        </div>
+      </form>
+  

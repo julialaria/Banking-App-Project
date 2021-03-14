@@ -1,0 +1,29 @@
+
+
+<body class="box" style="width: 1600px; height: 6000px; margin-top: 0px;" onmouseover="color='black'">
+    <h2 style="text-align: center; margin-top: 50px; font-size: 40px ;">Checking Accounts: </h2>
+    <br>
+    <br>
+    <br>
+        <table  style="margin-left: 300px; width: 60%; font-size: 30px; color:burlywood; font-family: Futura" @enterState>
+            <thead>
+            <tr>
+                <th>Id Account</th>
+                <th>Balance</th>
+                <th>Currency</th>
+                <th>Minimum Balance</th>  
+            </tr>
+            </thead>
+            <thead>
+                <tr *ngFor="let checking of checkings let i = index">
+                    <th style="font-size: 25px;">{{checking.id}}</th>
+                    <th style="font-size: 25px;">{{checking.balance}}</th>
+                    <th style="font-size: 25px;">{{checking.currency}}</th>
+                    <th style="font-size: 25px;">{{checking.minimumBalance}}</th>   
+                </tr>
+            </thead>             
+<br>
+<br>
+<br>
+<br>
+</table>

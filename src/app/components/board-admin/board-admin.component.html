@@ -1,0 +1,24 @@
+
+<body style="height: 2000px;">  
+  <h1 style="font-size:35px; text-align: center; margin-top: 100px;">THANK YOU<h3 style="font-size: 40px ; text-align: center; font-style: italic; margin-top: 30px;">{{currentUser.username}},</h3><br> YOU MAKE US BIG</h1>
+  <br>
+<br>
+<br>
+<br>
+
+<table style="align-items: center; margin-right: 10px;">
+<thead style="margin-left: 30px;" >
+  <tr  class="dropdown">
+      <th (click)="toggleShow()" type="checkbox" style="font-size: 25px">Create Account
+        <div *ngIf="isShown" id="divshow" class="dropdown-content">
+        <a routerLink="/create-saving" routerLinkActive="active" >Saving</a>
+        <a routerLink="/create-checking" routerLinkActive="active">Checking</a>
+        <a routerLink="/create-creditCard" routerLinkActive="active">CreditCard</a>
+        </div>
+      </th>
+      <th class="customTD1" style="font-size: 25px;" routerLink="/account" routerLinkActive="active">Show Accounts</th> 
+      <th class="customTD1" style="font-size: 25px;" routerLink="/transactionCard" routerLinkActive="active">Show Transactions</th> 
+      <th class="customTD1" style="font-size: 25px;" routerLink="/balance" routerLinkActive="active">Update Balance</th>        
+</tr>
+</thead>
+</table> 
