@@ -29,20 +29,30 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
 # ACCOUNT SPECIFICATIONS
 
 - **Savings**: 
+ 
     -  Required: **secretKey**
+    - 
     -  **Minimum Balance** of the account: it must be greater than 100 and less than 1000. Otherwise, the default value will be 1000
+    - 
     -  Default Status will be **ACTIVE**
+    - 
     -  Interest Rate will always be **0.1**
 
 -**Checkings**: 
-    -Required: **secretKey**
-    -**Minimum Balance** of the account will always be 250
-    -**Monthly Maintenance Fee** will always be 12
-    -  Default Status will be **ACTIVE**
+
+    - Required: **secretKey**
+    
+    - **Minimum Balance** of the account will always be 250
+    
+    - **Monthly Maintenance Fee** will always be 12
+    
+    - Default Status will be **ACTIVE**
     
 -**CreditCards**:
-   -**Credit Limit**: it must be greater than 100000 and less than 100. Otherwise, the default value will be 100
-   -**Interest Rate**: it must be greater than 0.2 and less than 0.1. Otherwise, the default value will be 0.2
+
+   - **Credit Limit**: it must be greater than 100000 and less than 100. Otherwise, the default value will be 100
+   
+   - **Interest Rate**: it must be greater than 0.2 and less than 0.1. Otherwise, the default value will be 0.2
  
 
     
