@@ -5,7 +5,7 @@
 In this video you can get a glance of the application!
 (*click on the image to open the video*)
 <br><br>
-[![Video](https://user-images.githubusercontent.com/60518810/110238280-16f9bf00-7f41-11eb-9eef-4e6c9ea87d28.gif)](https://www.youtube.com/watch?v=ZQj5TVl9QAY)
+[![Video](https://github.com/julialaria/Banking-App-Project/blob/main/explanation.JPG?raw=true)](https://www.youtube.com/watch?v=ZQj5TVl9QAY)
 
 
 
