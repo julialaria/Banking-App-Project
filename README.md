@@ -64,7 +64,7 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
   
   4) Please, remember to introduce first of all in the role table the following;
 
-![p1](https://github.com/julialaria/Banking-App-Project/blob/main/roles.JPG?raw=true)
+![p1](https://github.com/julialaria/Banking-App-Project/blob/main/role.JPG?raw=true)
   
   
 
