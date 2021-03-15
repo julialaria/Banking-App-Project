@@ -1,5 +1,18 @@
 # BANKING APP FINAL PROJECT
 
+
+
+In this video you can get a glance of the application!
+(*click on the image to open the video*)
+<br><br>
+[![Video](https://user-images.githubusercontent.com/60518810/110238280-16f9bf00-7f41-11eb-9eef-4e6c9ea87d28.gif)](https://www.youtube.com/watch?v=ZQj5TVl9QAY)
+
+
+
+
+
+
+
 Welcome to your online bank. Next, we will explain all the functionalities that you have at your fingertips.
 
 - If you are not registered, you will need to **register first**. To do this, you must enter a username, email and password. ***Remember that if you are an administrator, your email must contain @admin.***
