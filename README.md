@@ -61,10 +61,14 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
   2) Run the **eureka-server** project first with the command **mvn spring-boot: run**
 
   3) **Create your database** from **Micro and Edge project**. To do this, you must enter your username and password in the properties of both projects. With the command mvn spring-boot: run, run the micro project. The last project to run must be Edge project. Now the two services are in Eureka.
+  
+  4) Please, remember to introduce first of all in the role table the following;
+  
+  
 
-  4) Run the **angular project with the ng serve command**.
+  5) Run the **angular project with the ng serve command**.
 
-  5) Once the 4 projects are running, you will be able to access your online bank, probably at your localhost: 4200
+  6) Once the 4 projects are running, you will be able to access your online bank, probably at your localhost: 4200
 
  ***A robust security system through tokens has been used for this project. Thanks to this, not only can we register and log in to the database but we can also keep our session started and access our data (accounts, profile ...)***
  
