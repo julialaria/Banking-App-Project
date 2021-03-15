@@ -63,6 +63,8 @@ Welcome to your online bank. Next, we will explain all the functionalities that 
   3) **Create your database** from **Micro and Edge project**. To do this, you must enter your username and password in the properties of both projects. With the command mvn spring-boot: run, run the micro project. The last project to run must be Edge project. Now the two services are in Eureka.
   
   4) Please, remember to introduce first of all in the role table the following;
+
+![p1](https://github.com/julialaria/Banking-App-Project/blob/main/roles.JPG?raw=true)
   
   
 
